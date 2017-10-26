@@ -9,6 +9,7 @@ void *sleeping(void *);
 int i;
 pthread_t tid[NUM_THREADS];
 
+
 int main()
 {
     for (i = 0; i < NUM_THREADS; i++)
